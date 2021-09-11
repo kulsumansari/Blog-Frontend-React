@@ -1,6 +1,6 @@
 # BloGet
 
-* [BloGet Live Link](https://613c9c58731b490008e73b92--loving-wiles-76f4cd.netlify.app/).
+* [BloGet Live Link](https://613cb5aafe74627aeeeb9051--loving-wiles-76f4cd.netlify.app/).
 
 * [Server Live Link](https://backend-server-blog.herokuapp.com/)
 
