@@ -74,6 +74,11 @@ a{
         width:80vw;
         /* margin-left: 25px; */
     }
+    .blogContainer img{
+        height:40vh;
+        width: 100%;
+        margin: 10px 0px;
+    }
     .relatedLinks{
         width:90vw;
     }
