@@ -13,7 +13,7 @@ function BlogContainer(props){
                     <span className ={styles.alignRight} >{createdAt}</span>
                 </div>
             </div>
-            <div className='blogContent'>
+            <div>
                 <img src={blogImage} alt={blogTitle}/>
                 <p>{blogContent}</p>
             </div>
