@@ -47,8 +47,10 @@ To Setup this project locally follow below mentioned steps:
  # Folder Structure
  
  ```bash
-
+src
 ├── App.js
+├── data  
+│   └── data.js
 ├── Components
 │   └── BlogComponent
 │         └── BlogComponent.jsx
@@ -58,11 +60,15 @@ To Setup this project locally follow below mentioned steps:
 │   └── BlogTile
 │         └── BlogTile.jsx    
 │         └── BlogTile.module.css 
+│   └── Logo
+│         └── Logo.jsx    
+│         └── Logo.module.css 
 │   └── NavBar
-│         └── data  
-│             └── data.js
 │         └── BlogTile.jsx    
 │         └── BlogTile.module.css 
+│   └── Footer
+│         └── Footer.jsx    
+│         └── Footer.module.css 
 ├── pages
 │   └── Blogs
 │   └── Blog
