@@ -1,0 +1,21 @@
+ .companyLogo{
+    box-sizing: border-box;
+ }
+ .companyLogo span{
+    font-size: 3rem;
+    font-family: 'Recursive', sans-serif;
+    padding:2px 8px;
+    height:8vh;
+    border:1px solid white;
+    margin:2px;
+    font-weight: bold;
+  }
+  .companyLogo h1{
+    font-size: 3rem;
+    font-family: 'Saira Semi Condensed', sans-serif;
+  }
+  .reverseColor{
+    color: #495464;
+    background-color: #F4F4F2;
+    border: none;
+  }

@@ -20,30 +20,9 @@
   z-index: 10;
 }
 
-.companyLogo {
-  width: 30%;
-}
-.companyLogo h1{
-  font-size: 3rem;
-  font-family: 'Saira Semi Condensed', sans-serif;
-  
-}
-.companyLogo span{
-  font-family: 'Recursive', sans-serif;
-  padding:2px 8px;
-  height:8vh;
-  border:1px solid white;
-  margin:2px;
-  font-weight: bold;
-}
-.reverseColor{
-  color: #495464;
-  background-color: #F4F4F2;
-  border: none;
-}
 
 .navContainer {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;

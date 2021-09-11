@@ -1,18 +1,14 @@
-import { navData } from './data/data'
-
+import { navData } from '../../data/data'
 import styles from './NavBar.module.css';
+import Logo from '../Logo/Logo';
 
 function NavBar(props){
-    let { navLinks} = navData;
+    let {logo, navLinks} = navData;
     return(
          <div className={styles.navigation}>
-            <div className={styles.companyLogo}>
-                <h1>
-                    <span>B</span>
-                    <span className={styles.reverseColor}>G</span>
-                     BloGet
-                </h1>
-            </div>
+             
+             <Logo title={logo.title}/>
+                             
             <div className={styles.hamburgerMenu}>
                 <i className='fa fa-bars'></i>
             </div>
