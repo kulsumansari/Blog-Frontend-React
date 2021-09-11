@@ -1,8 +1,8 @@
 # BloGet
 
-[Live Link](https://613c9c58731b490008e73b92--loving-wiles-76f4cd.netlify.app/).
+* [BloGet Live Link](https://613c9c58731b490008e73b92--loving-wiles-76f4cd.netlify.app/).
 
-[Server Live Link](https://backend-server-blog.herokuapp.com/)
+* [Server Live Link](https://backend-server-blog.herokuapp.com/)
 
 
 BloGet fetches the Blogs from server and renders them. Navigating betwwn Blogs is made possible with react routing. 
