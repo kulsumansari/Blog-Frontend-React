@@ -1,0 +1,12 @@
+.blog{
+    width: 70%;
+    margin: 3%;
+    padding: 0px 20px;
+    text-align: justify;
+    background-color: white;
+}
+.blog img{
+    width:100%;
+    border-radius: 10px;  
+    box-shadow: 2px 2px 2px 2px #040431bd;  
+}
