@@ -36,13 +36,13 @@ To Setup this project locally follow below mentioned steps:
 
 # Routes in the Application
 
-  *  **/**
+  *  ``` / ```
   
      / route in the applications shows the list of all blogs fetched from server \
      
-  *  **/blogId**
+  *  ``` /blogId ```
 
-    /blogId route is renders the blog of specified blogId
+     /blogId route is renders the blog of specified blogId
     
  # Folder Structure
  
