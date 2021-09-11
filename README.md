@@ -67,7 +67,7 @@ To Setup this project locally follow below mentioned steps:
 │   └── Blogs
 │   └── Blog
 └── AppRouter
-    └── AppRouter.js
+     └── AppRouter.js
   
 ```
 
