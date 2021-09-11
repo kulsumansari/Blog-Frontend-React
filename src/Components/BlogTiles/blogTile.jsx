@@ -13,8 +13,8 @@ function BlogTile(props){
                 <p className={styles.author}>{author}</p>
             </div>
             {(blogImage !== '')?
-            <div className={styles.image} alt='blog Tile'>
-                <img src={blogImage} />
+            <div className={styles.image}>
+                <img src={blogImage}  alt={blogTitle}/>
             </div>
             :''}
         </div>
