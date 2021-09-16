@@ -4,8 +4,9 @@
 
 * [Server Live Link](https://backend-server-blog.herokuapp.com/)
 
+## Introduction
 
-BloGet fetches the Blogs from server and renders them. Navigating betwwn Blogs is made possible with react routing. 
+BloGet fetches the Blogs from server and renders them when the application Loads. Navigating between Blogs is made possible with react routing. 
 
 ## Set-up Project
 
@@ -37,12 +38,31 @@ To Setup this project locally follow below mentioned steps:
 # Routes in the Application
 
   *  ``` / ```
-  
-     / route in the applications shows the list of all blogs fetched from server \
+   
+     **Components In**``` / ```**route**
+     
+     1.Loading Componets
+    
+     2.Blog's List
+     
+     3.Error Component
+     
+     
+     **1.Loading Componets**
+     ![](https://kulsumansari.github.io/webpage-data/bloget-image/Loading.png)
+     
+     **2.Blog's List**
+     ![](https://kulsumansari.github.io/webpage-data/bloget-image/Homepage.png)
+     
+     **3.Error Component**
+     ![](https://kulsumansari.github.io/webpage-data/bloget-image/no-data.png)
+     
      
   *  ``` /blogId ```
 
      /blogId route is renders the blog of specified blogId
+     ![](https://kulsumansari.github.io/webpage-data/bloget-image/Blog-blogId.png)
+
     
  # Folder Structure
  
@@ -61,16 +81,20 @@ src
 │         └── BlogTile.jsx    
 │         └── BlogTile.module.css 
 │   └── Logo
-│         └── Logo.jsx    
+│         └── Logo.jsx 
 │         └── Logo.module.css 
+│         └── companyImage.png 
 │   └── NavBar
 │         └── BlogTile.jsx    
 │         └── BlogTile.module.css 
 │   └── Footer
 │         └── Footer.jsx    
 │         └── Footer.module.css 
+│   └── Modal
+│         └── Modal.jsx    
+│         └── Modal.module.css 
 ├── pages
-│   └── Blogs
+│   └── HomePage
 │   └── Blog
 └── AppRouter
      └── AppRouter.js
