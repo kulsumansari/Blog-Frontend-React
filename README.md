@@ -41,14 +41,14 @@ To Setup this project locally follow below mentioned steps:
    
      **Components In**``` / ```**route**
      
-     1.Loading Componets
+     1.Loading Componnet
     
      2.Blog's List
      
      3.Error Component
      
      
-     **1.Loading Componets**
+     **1.Loading Component**
      ![](https://kulsumansari.github.io/webpage-data/bloget-image/Loading.png)
      
      **2.Blog's List**
