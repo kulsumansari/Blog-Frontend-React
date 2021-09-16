@@ -7,11 +7,11 @@ function Footer(){
     let {footerLinkHead , footerLinks}= FooterData
         return(
         <footer className={styles.footer}>
-            <Logo />
+            <Logo companyName='BloGet'/>
             <div >
                 <h3 className={styles.footerLinkHeader}>{footerLinkHead} </h3>
                 {footerLinks.map((link)=>{
-                    return <i className={`${styles.footerLink} ${link.linkclass}`}></i>
+                    return <i className={`${styles.footerLink} ${link.linkclass}`} key={link.linkId}></i>
                 })}
             </div>
         </footer>

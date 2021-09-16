@@ -16,7 +16,6 @@
 .blogContainer img{
     width:90%;
     margin: 15px 25px;
-    height: 50vh;
     border-radius: 8px;  
     box-shadow: 2px 2px 2px 2px #040431bd;  
 }
@@ -72,9 +71,21 @@ a{
     }
     .blogContainer{
         width:80vw;
-        /* margin-left: 25px; */
+    }
+    .blogContainer img{
+        height:40vh;
+        width: 100%;
+        margin: 1.2rem 0rem;
+    }
+    .blogHeader{
+        height: 17vh;
     }
     .relatedLinks{
         width:90vw;
+    }
+}
+@media( max-width: 392px){
+    .blogHeader{
+        height: 20vh;
     }
 }

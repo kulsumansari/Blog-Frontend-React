@@ -7,7 +7,7 @@ function NavBar(props){
     return(
          <div className={styles.navigation}>
              
-             <Logo title={logo.title}/>
+             <Logo companyName={logo.title}/>
                              
             <div className={styles.hamburgerMenu}>
                 <i className='fa fa-bars'></i>

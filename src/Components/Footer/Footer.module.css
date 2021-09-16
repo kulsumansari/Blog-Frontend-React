@@ -18,3 +18,8 @@
     font-size: 1.7rem;
     padding-top:10px;
   }
+  @media(max-width:378px){
+    .footer{
+      height: unset;
+    }
+  }

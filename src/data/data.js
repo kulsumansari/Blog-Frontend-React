@@ -37,19 +37,23 @@ export const FooterData={
     footerLinks:[
       {
         linkclass: "fa fa-twitter",
-        href: "#"
+        href: "#",
+        linkId:"link1"
       },
       {
         linkclass: "fa fa-facebook",
-        href: "#"
+        href: "#",
+        linkId:"link2"
       },
       {
         linkclass: "fa fa-github", 
-        href: "#"
+        href: "#",
+        linkId:"link3"
       },
       {
         linkclass: "fa fa-instagram",
-        href: "#"
+        href: "#",
+        linkId:"link4"
       }
     ]
 }
