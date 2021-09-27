@@ -18,7 +18,7 @@ function HomePage(){
                 setTimeout(()=>{
                     setBlogs(data.data)
                     setIsLoading(false)
-                },1000)
+                },500)
                 
             })
             .catch((err)=>{
